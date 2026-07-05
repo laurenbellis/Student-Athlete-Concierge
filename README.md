@@ -27,30 +27,27 @@ instead of a simple lookup tool.
 ## Architecture
 
 ```
-                     ┌─────────────────────────┐
+                     ┌──────────────────────────┐
                      │   athlete_concierge      │
                      │   (root/orchestrator)    │
                      └────────────┬─────────────┘
                                   │ delegates based on intent
               ┌───────────────────┴───────────────────┐
               ▼                                        ▼
-    ┌───────────────────┐                   ┌────────────────────┐
-    │  training_agent     │                   │  academic_agent     │
-    │  (workouts, soreness)│                   │  (deadlines, study) │
-    └──────────┬──────────┘                   └──────────┬──────────┘
+    ┌──────────────────────┐                   ┌────────────────────┐
+    │  training_agent      │                   │  academic_agent    │
+    │  (workouts, soreness)│                   │ (deadlines, study) │
+    └──────────┬───────────┘                   └──────────┬─────────┘
                │                                          │
                └───────────────┬──────────────────────────┘
                                 ▼
-                   ┌─────────────────────────┐
-                   │  athlete-concierge MCP    │
-                   │  server (FastMCP, stdio)  │
-                   │  - get_todays_workout     │
-                   │  - get_upcoming_deadlines │
-                   │  - log_soreness           │
-                   └────────────┬──────────────┘
+                   ┌──────────────────────────┐
+                   │  athlete-concierge MCP   │
+                   │  server (FastMCP, stdio) │
+                   └────────────┬─────────────┘
                                 ▼
                    ┌─────────────────────────┐
-                   │  data/*.json (local)      │
+                   │  data/*.json (local)    │
                    └─────────────────────────┘
 ```
 
