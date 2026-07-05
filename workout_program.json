@@ -1,0 +1,26 @@
+{
+  "athlete": "Sample Athlete",
+  "program_name": "Summer Training Block",
+  "current_phase": "Strength Base Development",
+  "week": 3,
+  "days": {
+    "Day 1": {
+      "focus": "Lower Body / Push",
+      "exercises": [
+        {"name": "Back Squat", "sets": 4, "reps": "5", "percent_1rm": 75, "primary_muscle_group": "legs"},
+        {"name": "Bench Rows", "sets": 4, "reps": "5", "percent_1rm": 75, "primary_muscle_group": "chest"},
+        {"name": "Romanian Deadlift", "sets": 4, "reps": "8", "percent_1rm": 65, "primary_muscle_group": "legs"},
+        {"name": "Overhead Press", "sets": 4, "reps": "8", "percent_1rm": 65, "primary_muscle_group": "shoulders"}
+      ]
+    },
+    "Day 2": {
+      "focus": "Upper Body / Pull",
+      "exercises": [
+        {"name": "Deadlift", "sets": 4, "reps": "5", "percent_1rm": 75, "primary_muscle_group": "back"},
+        {"name": "Bench Press", "sets": 4, "reps": "6", "percent_1rm": 70, "primary_muscle_group": "back"},
+        {"name": "Leg Press", "sets": 4, "reps": "8", "percent_1rm": 65, "primary_muscle_group": "legs"},
+        {"name": "Seat Sable Row", "sets": 4, "reps": "8", "percent_1rm": 65, "primary_muscle_group": "back"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "course": "Google x Kaggle",
+    "title": "Example Assignment 1",
+    "due_date": "2026-07-08",
+    "type": "homework",
+    "estimated_hours": 1
+  },
+  {
+    "course": "Google x Kaggle",
+    "title": "Past Assignment Example",
+    "due_date": "2026-07-01",
+    "type": "homework",
+    "estimated_hours": 1
+  },
+  {
+    "course": "Google x Kaggle",
+    "title": "Due Today Assignment Example",
+    "due_date": "2026-07-05",
+    "type": "homework",
+    "estimated_hours": 1
+  },
+  {
+    "course": "Google x Kaggle",
+    "title": " Capstone Project Example",
+    "due_date": "2026-07-06",
+    "type": "project",
+    "estimated_hours": 8
+  },
+  {
+    "course": "Google x Kaggle",
+    "title": "Final Exam Example",
+    "due_date": "2026-07-14",
+    "type": "exam",
+    "estimated_hours": 2
+  },
+]
